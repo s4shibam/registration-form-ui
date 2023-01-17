@@ -1,0 +1,132 @@
+html {
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #080710;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    background-color: #080710;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #ff512f, #f09819);
+
+    border-radius: 50%;
+    transform: translate(-9.5rem, -17.5rem);
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #e100ff, #fd99f8);
+    border-radius: 50%;
+    transform: translate(9.5rem, 17.9rem);
+}
+
+.form {
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.heading h3 span {
+    display: block;
+    font-size: 19px;
+    font-weight: 300;
+    color: #e5e5e5;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    border: none;
+    height: 50px;
+    width: 100%;
+    color: #e5e5e5;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+.clientLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.clientLogin span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+a > img,
+img {
+    display: flex;
+    width: 50px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+button {
+    border: none;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Developed with love by Shibam Saha */
