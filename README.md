@@ -37,8 +37,8 @@ This is a simple front end of a user registration or signup form with glassmorph
 
 ## 🎯 Goal
 
-- To learn about HTML tags and attributes
-- To learn about basic styling using CSS
+- [x] To learn about HTML tags and attributes
+- [x] To learn about basic styling using CSS
 
 
 ## 🖼️ Screenshot
