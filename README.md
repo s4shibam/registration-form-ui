@@ -48,6 +48,6 @@ This is a simple front end of a user registration or signup form with glassmorph
 
 ## 👋🏻 Contact
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s4shibam)
-[![Twitter](https://img.shields.io/badge/twitter-00ACEE?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=s4shibam)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s4shibam)
+[![Twitter](https://img.shields.io/badge/Twitter-00ACEE?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=s4shibam)
 
